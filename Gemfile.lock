@@ -1,3 +1,9 @@
+PATH
+  remote: lib/spree_favorite_products
+  specs:
+    spree_favorite_products (3.0.0)
+      spree_core (~> 3.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -324,6 +330,7 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   spree (~> 3.0.7)
   spree_auth_devise (~> 3.0.0)
+  spree_favorite_products!
   spree_gateway (~> 3.0.0)
   spring
   sqlite3
